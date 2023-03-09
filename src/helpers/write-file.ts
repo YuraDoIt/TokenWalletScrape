@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 
-export function writeFileResult(pathFile: string,fileName: string, obj: any) {
+export function writeFileResult(fileName: string, obj: any, pathFile: string) {
   fs.writeFile(
-      path.join(__dirname,`..`,`/files-result`,`${fileName}.json`),
+      path.join(__dirname,`..`,`/files-result`,`${pathFile}`,`${fileName}.json`),
       JSON.stringify(obj),
       'utf-8',
       (err) => {
