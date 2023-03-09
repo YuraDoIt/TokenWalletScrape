@@ -10,7 +10,7 @@ GoTo terminal run from project directory command:
 - npm install
 - npm run start:dev
 
-Open http://localhost
+Open http://localhost:<Port>
 
-Every 1 minute it will parse all transaction and save it to src/files-result/token-ec20
+Every 1 minute it will parse all transaction and save it to src/files-result/token-ec20<br>
 If open http://localhost:<Port>/own-etherium it will save all etherium token to src/files-result/token-own
