@@ -3,12 +3,8 @@ Hi to run this project you should
 
 Register on Moralis and get you Api key
 
-Open project and add .env file with parameter without <br>
-</br>
-PORT=<Your value>
-WALLET_HASH=<Your value>
-
-MORALIS_API=<Your value>
+Open project and add .env file with parameter without </br>
+PORT=<Your value></br>WALLET_HASH=<Your value></br>MORALIS_API=<Your value>
 
 GoTo terminal run from project directory command:
 - npm install
