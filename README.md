@@ -1,5 +1,6 @@
-Hi to run this project you should
-- git clone <url>
+Hi to run this project you need:
+create folder to clone repo
+- git clone git@github.com:YuraDoIt/TokenWalletScrape.git
 
 Register on Moralis and get you Api key
 
