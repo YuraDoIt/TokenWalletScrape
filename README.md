@@ -3,7 +3,8 @@ Hi to run this project you should
 
 Register on Moralis and get you Api key
 
-Open project and add .env file with parameter without <>
+Open project and add .env file with parameter without <br>
+</br>
 PORT=<Your value>
 WALLET_HASH=<Your value>
 
