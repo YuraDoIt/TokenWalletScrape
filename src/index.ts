@@ -16,5 +16,5 @@ app.get("/own-etherium", tokenBalance);
 cron.schedule('* * * * *', cronJob);
 
 app.listen(process.env.PORT, () => {
-  console.log(`Goto http::/localhost:${process.env.PORT}`);
+  console.log(`Goto http:/localhost:${process.env.PORT}`);
 })
